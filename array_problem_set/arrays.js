@@ -27,4 +27,15 @@ function isUniform(arr){
 
 isUniform(nonUniform);
 
+// write a function sumArray() that accepts an array of numbers and returns
+// the sum of all number in the array
 
+function sumArray(nums){
+	var sum = 0;
+	for (var i = 0; i < nums.length; i++){
+		sum += nums[i];
+	}
+	return sum;
+}
+
+sumArray(nums);
